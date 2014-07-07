@@ -1,6 +1,6 @@
 # Adobe Experience Manager 6 Extension: Create an MSM layer in Page Authoring
 
-This is a sample package showing how to create a new layer in page authoring. The example is using MSM data and highlights it in the layer. To try it you may use Geometrixx Outdoors or any other [LiveCopy](http://dev.day.com/docs/en/cq/current/administering/multi_site_manager.html) page.
+This is a sample package showing how to create a new layer in page authoring. The example is using MSM data and highlights it in the layer. To try it you may use Geometrixx Outdoors or any other [LiveCopy](http://docs.adobe.com/docs/en/aem/6-0/administer/sites/multi-site-manager.html) page.
 
 ## Building 
  
