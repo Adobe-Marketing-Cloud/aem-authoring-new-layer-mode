@@ -1,6 +1,0 @@
-#base=js
-msm.js
-msm.const.js
-msm.fn.js
-msm.Overlay.js
-msm.Layer.js
