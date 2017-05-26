@@ -1,0 +1,3 @@
+#base=js
+
+mynamespace.Layer.js

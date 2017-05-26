@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2017-03-09T17:49:53.197+01:00"
+    jcr:createdBy="admin"
+    jcr:description=""
+    jcr:lastModified="{Date}2017-03-09T17:49:53.197+01:00"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    buildCount="1"
+    builtWith="Adobe Experience Manager-6.3.0"
+    group="adobe/aem630"
+    lastUnwrapped="{Date}2017-03-09T17:49:53.197+01:00"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2017-03-09T17:49:53.197+01:00"
+    lastWrappedBy="admin"
+    name="sample_authoring_layer"
+    version="1.0">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/sample/authoring/editor"
+            rules="[]"/>
+    </filter>
+</jcr:root>

@@ -1,5 +1,17 @@
-# Adobe Experience Manager 6 Extension: Create an MSM Layer in Page Authoring
+# Adobe Experience Manager 6.3 Extension: Adding a new layer (mode)
 
-Starting from AEM 6.1, the MSM Layer is part of the default Layers of the Page Authoring.
+This is a sample package showing how to create a new layer (mode).
 
-In AEM 6.2, the MSM Layer is defined in the MSM Editor plugin client library (``cq.authoring.editor.plugin.msm``), and the source code is available at ``/libs/wcm/msm/content/touch-ui/authoring/editor/js/msm.Layer`` 
+## Building 
+ 
+This project uses Maven for building. Common commands:
+
+From the project directory, run ``mvn clean install content-package:install`` to build the bundle and content package and install to a CQ instance.
+
+## Using with VLT 
+ 
+To use vlt with this project, first build and install the package to your local CQ instance as described above. Then cd to `src/main/content/jcr_root` and run
+
+    vlt --credentials admin:admin co http://localhost:4502/crx/-/jcr:root . --force
+
+Once the working copy is created, you can use the normal ``vlt up`` and ``vlt ci`` commands.
